@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="#" class="logo"><span>RANGON</span> KI YATRA</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#book">Book</a>
+            <a href="#packages">Packages</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search Me...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+
+    <div class="login--form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form action"">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="Username">
+            <input type="password" class="box" placeholder="Passcode">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember Me</label>
+            <p>Forget Passcode <a href="#">click here</a></p>
+            <p>Don't have and account <a href="#">Register now</a></p>
+        </form>
+    </div>
+
+
+    <section class="home" id="home">
+        <div class="content">
+        <h3>UTTAR PRADESH</h3>
+        <p>Uttar pradesh is Famous for its history,Sanskrit and temples.The beauty and experience of this place will make you memories!</p>
+        <a href="#" class="btn">Explore Now</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="img/varanasi (online-video-cutter.com).mp4"></span>
+            <span class="vid-btn" data-src="img/main.mp4"></span>
+            <span class="vid-btn" data-src="img/3.mp4"></span>
+            <span class="vid-btn" data-src="img/Diwali.mp4"></span>
+
+        </div>
+
+        <div class="video-container">
+            <video src="img/varanasi (online-video-cutter.com).mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+    </section>
+
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>R</span>
+            <span>E</span>
+            <span>S</span>
+            <span>E</span>
+            <span>R</span>
+            <span>V</span>
+            <span>E</span>
+
+            <span class="space"></span>
+            <span>M</span>
+            <span>A</span>
+            <span>I</span>
+            <span>N</span>
+            <span>T</span>
+            <span>E</span>
+            <span>N</span>
+            <span>A</span>
+            <span>N</span>
+            <span>T</span>
+
+        </h1>
+        <div class="tag">
+            <div class="map">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3636433.2439936562!2d78.21784522727137!3d27.118373144543714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39994e9f7b4a09d3%3A0xf6a5476d3617249d!2sUttar%20Pradesh!5e0!3m2!1sen!2sin!4v1696773443656!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <h3>where To</h3>
+                    <input type="text" placeholder="place name">
+                </div>
+                <div class="inputBox">
+                    <h3>How Many</h3>
+                    <input type="number" placeholder="Number of Guests">
+                </div>
+                <div class="inputBox">
+                    <h3>Arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>Leaving</h3>
+                    <input type="date" placeholder="place name">
+                </div>
+                <input type="submit" class="btn" value="Book Now">
+            </form>
+        </div>
+    </section>
+
+    <section class="packages" id="packages">
+
+        <h1 class="heading">
+            <span>P</span>
+            <span>A</span>
+            <span>C</span>
+            <span>K</span>
+            <span>A</span>
+            <span>G</span>
+            <span>E</span>
+            <span>S</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div  class="box">
+                <img src="img/varanasi img.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i>Varanasi</h3>
+                    <p>Varanasi, also known as Benares or Kashi, is a historic city on the banks of the Ganges River in Uttar Pradesh, India. It’s a significant pilgrimage site in Hinduism, Jainism, and Buddhism. Known for its ancient temples, ghats, and the sacred river Ganges, it’s one of the world’s oldest continually <br>inhabited cities</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="Price"> ₹11999<span>19999</span></div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+
+
+
+            <div  class="box">
+                <img src="img/lucknow.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i>Lucknow</h3>
+                    <p>Lucknow, the capital of Uttar Pradesh, India, is a multicultural city known for its rich cultural and artistic heritage. It’s the administrative headquarters of the eponymous district and division. With a population of 2.8 million, it’s an important center of governance, administration, education, commerce, aerospace, finance, pharmaceuticals, information technology.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="Price"> ₹17205<span>19585</span></div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+
+
+
+            <div  class="box">
+                <img src="img/kumbh.avif" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i>Prayagraj</h3>
+                    <p>Prayagraj, also known as Allahabad, is a historic city in Uttar Pradesh, India. It's situated at the confluence of the Ganges, Yamuna, and mythical Sarasvati rivers. The city is renowned for the Kumbha Mela, a massive Hindu religious festival that occurs every 12 years. Prayagraj holds a central role in Hindu scriptures and is venerated in ancient Vedas.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="Price"> ₹8499<span>12599</span></div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+
+
+            <div  class="box">
+                <img src="img/taj.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i>Agra</h3>
+                    <p>Agra, located in Uttar Pradesh, India, is a city on the banks of the Yamuna river. It’s renowned for its            Mughal-era architecture, including the iconic Taj Mahal, Agra Fort, and Fatehpur Sikri, all UNESCO World Heritage Sites. Agra is a significant tourist destination, known for its history, architecture,<br> and culture</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="Price"> ₹4399<span>6399</span></div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+
+
+            <div  class="box">
+                <img src="img/ayodhya.cms" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i>Ayodhya</h3>
+                    <p>Ayodhya, also known as Saket, is an ancient city in Uttar Pradesh, India, situated on the banks of the Sarayu river. It’s the birthplace of Lord Rama and a major pilgrimage site in Hinduism. The city is known for its central role in the epic Ramayana. Ayodhya is also the administrative headquarters of the Ayodhya district and division</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="Price"> ₹49999<span>15000</span></div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+
+
+            <div  class="box">
+                <img src="img/PremMandir.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i>Vrindavan</h3>
+                    <p>Vrindavan, a historical city in Uttar Pradesh, India, is located in the Braj Bhoomi region. It’s revered by Hindus as the childhood home of Lord Krishna. The city, situated on the Yamuna River, is dotted <br>with about 5,500 temples<br> dedicated to Krishna and <br>his consort Radha</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="Price"> ₹9999<span>15999</span></div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <section id="services" class="services">
+        <h1 class="heading">
+            <span>S</span>
+            <span>E</span>
+            <span>R</span>
+            <span>V</span>
+            <span>I</span>
+            <span>C</span>
+            <span>E</span>
+            <span>S</span>
+        </h1>
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>Affordable Hotels</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, nesciunt quasi! Neque dicta consequuntur exercitationem, nisi debitis explicabo aspernatur adipisci obcaecati officia quo unde est cum facilis magnam iusto veritatis.</p>
+            </div>
+
+            
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>Food and Drinks</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, nesciunt quasi! Neque dicta consequuntur exercitationem, nisi debitis explicabo aspernatur adipisci obcaecati officia quo unde est cum facilis magnam iusto veritatis.</p>
+            </div>
+
+            
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>Around the World</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, nesciunt quasi! Neque dicta consequuntur exercitationem, nisi debitis explicabo aspernatur adipisci obcaecati officia quo unde est cum facilis magnam iusto veritatis.</p>
+            </div>
+
+
+            
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>Safty Guide</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, nesciunt quasi! Neque dicta consequuntur exercitationem, nisi debitis explicabo aspernatur adipisci obcaecati officia quo unde est cum facilis magnam iusto veritatis.</p>
+            </div>
+
+
+            
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>Fastest Travel</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, nesciunt quasi! Neque dicta consequuntur exercitationem, nisi debitis explicabo aspernatur adipisci obcaecati officia quo unde est cum facilis magnam iusto veritatis.</p>
+            </div>
+
+            
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>Adventures</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, nesciunt quasi! Neque dicta consequuntur exercitationem, nisi debitis explicabo aspernatur adipisci obcaecati officia quo unde est cum facilis magnam iusto veritatis.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <h1 class="heading">
+            <span>G</span>
+            <span>A</span>
+            <span>L</span>
+            <span>L</span>
+            <span>E</span>
+            <span>R</span>
+            <span>Y</span>
+
+        </h1>
+        <div class="box-container">
+
+            <div class="box">
+            <img src="img/1.jpg" alt="">
+            <div class="content">
+                <h3>Imambara</h3>
+                <p>The Bara Imambara of Lucknow is one of th e most famous monuments in the city.</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        
+
+        <div class="box">
+            <img src="img/2.jpg" alt="">
+            <div class="content">
+                <h3>Taj Mahal</h3>
+                <p> It was commissioned in 1632 by the Mughal emperor, Shah Jahan, to house the tomb of his favorite wife, Mumtaz Maha</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        
+        <div class="box">
+            <img src="img/4.jpg" alt="">
+            <div class="content">
+                <h3>varanasi ghats</h3>
+                <p> The city has 88 ghats2, most of which are used for bathing and puja ceremonies1. Two ghats, Manikarnika and Harishchandra, are used exclusively as cremation sites</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        
+
+        <div class="box">
+            <img src="img/5.jpg" alt="">
+            <div class="content">
+                <h3>Azamgarh </h3>
+                <p> Azamgarh is known for its historical, cultural, and religious significance1. The city is also known as the land of the sage Durvasa</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        
+        <div class="box">
+            <img src="img/6.jpg" alt="">
+            <div class="content">
+                <h3>Gorakhpur</h3>
+                <p>Gorakhpur, located in Uttar Pradesh, India, is known for its historical, cultural, and religious significance</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        
+
+        <div class="box">
+            <img src="img/7.jpg" alt="">
+            <div class="content">
+                <h3>Ayodhya</h3>
+                <p>Ayodhya, also known as Saket, is an ancient city in Uttar Pradesh, India, situated on the banks of the Sarayu river. It’s the birthplace of Lord Rama and a major pilgrimage site in Hinduism.</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        
+
+        <div class="box">
+            <img src="img/8.jpg" alt="">
+            <div class="content">
+                <h3>Dudhwa National Park</h3>
+                <p> This is the only national park in Uttar Pradesh and is home to a variety of flora and fauna</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        
+
+        <div class="box">
+            <img src="img/9.jpg" alt="">
+            <div class="content">
+                <h3>Uttar pradesh</h3>
+                <p>Uttar Pradesh, located in the northern region of India, is known for its rich history, culture, and spirituality</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        
+
+        <div class="box">
+            <img src="img/varanasi img.jpg" alt="">
+            <div class="content">
+                <h3>Varanasi</h3>
+                <p>World’s oldest living city, known for Kashi Vishwanath Temple</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="review" id="review">
+        <h1 class="heading">
+            <span>R</span>
+            <span>E</span>
+            <span>V</span>
+            <span>I</span>
+            <span>E</span>
+            <span>W</span>
+        </h1>
+
+        <div class="swiper-container review-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="img/client-.jpg" alt="">
+                        <h3>Nidhi Yadav</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="img/client-boy.jpg" alt="">
+                        <h3>Samarth Saxena</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="img/client-boy.jpg" alt="">
+                        <h3>Deepak Singh</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="img/client-.jpg" alt="">
+                        <h3>Tanya Rais</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+
+    </section>
+    <section class="contact" id="contact">
+        <h1 class="heading">
+            <span>C</span>
+            <span>O</span>
+            <span>N</span>
+            <span>T</span>
+            <span>A</span>
+            <span>C</span>
+            <span>T</span>
+
+        </h1>
+        <div class="row">
+            <div class="image">
+                <img src="img/customer.jpg" alt="">
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                </div>
+
+                <div class="inputBox">
+                    <input type="number" placeholder="number">
+                    <input type="text" placeholder="subject">
+                </div>
+                <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="send message" >
+            </form>
+            
+        </div>
+    </section>
+
+    <!-- <section class="brand-container">
+
+        <div class="swiper-container brand-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/" alt=""></div>
+                <div class="swiper-slide"><img src="img/" alt=""></div>
+                <div class="swiper-slide"><img src="img/" alt=""></div>
+                <div class="swiper-slide"><img src="img/" alt=""></div>
+                <div class="swiper-slide"><img src="img/" alt=""></div>
+                <div class="swiper-slide"><img src="img/" alt=""></div>
+
+            </div>
+        </div>
+    </section>
+     -->
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>about us</h3>
+                <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur exercitationem eos vel reprehenderit quas dolores quae porro vitae rem omnis.</P>
+            </div>
+
+            <div class="box">
+                <h3>Branch Locations</h3>
+                <a href="#">Ayodhya</a>
+                <a href="#">Lucknow</a>
+                <a href="#">Gorakhpu</a>
+                <a href="#">Azamgarh</a>
+            </div>
+            
+            <div class="box">
+                <h3>Quick links</h3>
+                <a href="#">home</a>
+                <a href="#">book</a>
+                <a href="#">packages</a>
+                <a href="#">services</a>
+                <a href="#">gallery</a>
+                <a href="#">review</a>
+                <a href="#">contact</a>
+            </div>
+            
+            
+            <div class="box">
+                <h3>Follow us</h3>
+                <a href="#">Facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+                <a href="#">linkedin</a>
+            </div>
+
+        </div>
+        <h1 class="credit">Created by <span>Deepak Singh</span> all rights reseved.</h1>
+    </section>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="maine.js"></script>
+</body>  
+</html>
